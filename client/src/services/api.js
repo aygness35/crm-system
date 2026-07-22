@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const api = axios.create({
-  baseURL: "https://crm-system-rz6n.onrender.com",
+  baseURL: "https://crm-system-rz6n.onrender.com/api",
 });
 
 // Attach token to every request automatically
